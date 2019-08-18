@@ -24,7 +24,7 @@ const user = {
     location: 'China',
 }
 
-function getLocation(location) {
+const getLocation = location => 3{
     if (location) {
         return <p>{location}</p>
     }
